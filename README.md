@@ -7,6 +7,12 @@
 
 Use this repo as [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for new library creation:
 
+## Installation
+
+```
+pnpm install tlb -D
+```
+
 1. Clone new repo.
 2. Change `name`, `description`, `keywords`, `repository` and `bugs` properties in `package.json`.
 3. Change library `name` in `vite.config.ts`.
@@ -22,3 +28,11 @@ Available scripts:
 - `test` — run tests written in [Jest](https://jestjs.io/);
 - `test:coverage` — run tests with coverage report;
 - `prepublishOnly` — run before `pnpm publish`.
+
+## Changelog
+
+Changelog is available [here](CHANGELOG.md).
+
+## License
+
+[MIT](LICENSE.md)
