@@ -13,22 +13,33 @@ Use this repo as [template](https://docs.github.com/en/repositories/creating-and
 pnpm install tlb -P
 ```
 
-1. Clone new repo.
-2. Change `name`, `description`, `version`, `keywords`, `author`, `repository` and `bugs` properties in `package.json`.
+1. Fix installation command above.
+2. Change `name`, `version`, `description`, `keywords`, `author`, `repository` and `bugs` properties in `package.json`.
 3. Change library `name` in `vite.config.ts`.
 4. Enable library repository on https://coveralls.io/ for test coverage reports.
 5. Replace contents of `CHANGELOG.md`.
 6. Change library author in `LICENSE.md`.
 7. Change `README.md` file: fix title, shields and replace all the rest.
 
-Available scripts:
+## Build
 
-- `dev` — build library in development mode (incremental build);
-- `buld` — build library for production use;
-- `lint` — run [ESLint](https://eslint.org/) for source code static analyzing;
-- `test` — run tests written in [Jest](https://jestjs.io/);
-- `test:coverage` — run tests with coverage report;
-- `prepublishOnly` — run before `pnpm publish`.
+```
+pnpm build
+```
+
+## Develop
+
+```
+pnpm dev
+```
+
+## Test
+
+```
+pnpm lint
+pnpm test
+pnpm test:coverage
+```
 
 ## Changelog
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (2025-02-07)
+
+- Fix scripts section in `README.md`.
+
 ## 0.2.0 (2025-02-07)
 
 - Github Actions are added.
