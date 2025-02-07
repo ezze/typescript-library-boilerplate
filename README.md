@@ -10,7 +10,7 @@ Use this repo as [template](https://docs.github.com/en/repositories/creating-and
 ## Installation
 
 ```
-pnpm install tlb -D
+pnpm install tlb -P
 ```
 
 1. Clone new repo.
