@@ -14,11 +14,12 @@ pnpm install tlb -D
 ```
 
 1. Clone new repo.
-2. Change `name`, `description`, `keywords`, `repository` and `bugs` properties in `package.json`.
+2. Change `name`, `description`, `keywords`, `author`, `repository` and `bugs` properties in `package.json`.
 3. Change library `name` in `vite.config.ts`.
-4. Enable library repository on https://coveralls.io/ for test coverage reports. 
-5. Change library author in `LICENSE.md`.
-6. Change `README.md` file: fix title, shields and replace all the rest.
+4. Enable library repository on https://coveralls.io/ for test coverage reports.
+5. Replace contents of `CHANGELOG.md`.
+6. Change library author in `LICENSE.md`.
+7. Change `README.md` file: fix title, shields and replace all the rest.
 
 Available scripts:
 

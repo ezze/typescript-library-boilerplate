@@ -7,6 +7,11 @@
     "library",
     "boilerplate"
   ],
+  "author": {
+    "name": "Dmitriy Pushkov",
+    "email": "ezze@ezze.org",
+    "url": "https://ezze.org"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ezze/typescript-library-boilerplate"
@@ -14,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/ezze/typescript-library-boilerplate"
   },
+  "license": "MIT",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
