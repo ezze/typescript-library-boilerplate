@@ -1,9 +1,9 @@
 import { Linter } from 'eslint';
-import ezzePrettier from 'eslint-config-ezze-prettier';
-import ezzeTypeScript from 'eslint-config-ezze-ts';
+import prettier from 'eslint-config-ezze-prettier';
+import typeScript from 'eslint-config-ezze-ts';
 import globals from 'globals';
 
-const config: Array<Linter.Config> = [...ezzeTypeScript, ...ezzePrettier];
+const config: Array<Linter.Config> = [...typeScript, ...prettier];
 
 export default [
   { ignores: ['dist', 'node_modules'] },
