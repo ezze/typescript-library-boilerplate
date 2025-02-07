@@ -1,5 +1,8 @@
+// TODO: your library tests must be here
+import sayHi from '../lib';
+
 describe('library', () => {
-  test('test', () => {
-    console.log('your library unit tests go here');
+  test('say hi', () => {
+    expect(sayHi()).toBe('Hello world!');
   });
 });
