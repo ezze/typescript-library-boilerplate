@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/ezze/typescript-library-boilerplate/badge.svg)](https://coveralls.io/github/ezze/typescript-library-boilerplate)
 [![](https://img.shields.io/github/license/ezze/typescript-library-boilerplate)](https://github.com/ezze/typescript-library-boilerplate/blob/HEAD/LICENSE.md)
 
-Use this repo as [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for new library creation:
+Use this repo as [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for new library creation.
 
 ## Installation
 
@@ -14,7 +14,7 @@ pnpm install tlb -P
 ```
 
 1. Clone new repo.
-2. Change `name`, `description`, `keywords`, `author`, `repository` and `bugs` properties in `package.json`.
+2. Change `name`, `description`, `version`, `keywords`, `author`, `repository` and `bugs` properties in `package.json`.
 3. Change library `name` in `vite.config.ts`.
 4. Enable library repository on https://coveralls.io/ for test coverage reports.
 5. Replace contents of `CHANGELOG.md`.
