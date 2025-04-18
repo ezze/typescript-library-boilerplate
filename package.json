@@ -1,6 +1,6 @@
 {
   "name": "tlb",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "TypeScript library boilerplate",
   "keywords": [
     "typescript",
@@ -21,8 +21,12 @@
   },
   "license": "MIT",
   "type": "module",
-  "main": "dist/index.umd.js",
+  "main": "dist/index.cjs",
   "module": "dist/index.es.js",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "import": "./dist/index.es.js"
+  },
   "types": "dist/index.d.ts",
   "files": [
     "dist"
